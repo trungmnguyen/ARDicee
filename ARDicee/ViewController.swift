@@ -42,7 +42,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         else {
 
             let configuration = ARWorldTrackingConfiguration()
-            configuration.planeDetection = .horizontal
+            configuration.planeDetection = .vertical
             
             // Run the view's session
             sceneView.session.run(configuration)
